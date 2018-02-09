@@ -20,6 +20,7 @@
                             <field name="code"/>
                         </group>
                         <group name="main_group2">
+                            <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company"/>
                         </group>
                     </group>
                     <notebook name="notebook">
